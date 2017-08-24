@@ -1,0 +1,209 @@
+    @font-face {
+    	font-family: Roboto;
+    	src: https://fonts.google.com/specimen/Roboto?selection.family=Roboto;
+    }
+
+  	body { max-width: 1280px; }
+
+  	#header-nav { margin-bottom: 10px; }
+  	#header-div { height: 55px; }
+  	#header-img { 
+  			margin-top: 15px;
+  			margin-left: 20px;
+  		}
+  	@media screen and (max-width: 769px) {
+  		#header-img { margin-left: 14px; } 
+  	}
+  	#header-ul { margin-top: 2px; }
+  	#header-last-ul { margin-right: 12px; }
+  	#header-glyph { font-size: 12px; }
+
+
+  	#subheader-nav {
+  		min-height: 30px;
+  		margin-bottom: 0px;
+  	}
+  	#subheader-span {
+  		font-weight: bold; 
+  		margin-left: 20px; 
+  	}
+  	@media screen and (max-width: 769px) { 
+  		#subheader-div { margin-bottom: 25px; }
+  		#subheader-span { margin-left: 15px; } 
+  	}
+  	#subheader-ul { margin-top: -15px; }
+  	.subheader-a {
+   		margin-top: 4px;
+   		color: darkgray;
+  		font-size: small;
+  		padding-top: 13px !important;
+   	}
+  	.subheader-a:hover { 
+  		color: black;
+  		font-weight: bold;
+  		background-color: white !important;
+  	}
+  	.subheader-a:focus { 
+  		color: black;
+  		font-weight: bold;
+  		background-color: white !important;
+  	}
+ 	  #subheader-last-li { margin-right: 12px; }
+  	#subheader-glyph { font-size: 12px; }
+
+  	#hero-img { 
+  		top: -6px;
+  		max-width: 100%;
+  		position: relative; 
+  	}
+
+
+  	p.middle-lbl { text-align: center; }
+  	p.middle-lbl:first-child { 
+  		font-size: x-large;
+  		margin-top: 30px;
+  		font-weight: lighter; 
+  	}
+  	p.middle-lbl:nth-child(2) { margin-bottom: 0px; }
+
+
+    #table-div { overflow-x: auto; }
+  	table {
+      width: 65%;
+   		margin-top: 10px;
+  		margin-left: auto;
+  		margin-right: auto;
+  		table-layout: fixed;
+  	}
+    @keyframes activityRow {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    tr.in-view {
+      animation-duration: 3s;
+      animation-name: activityRow;
+    }
+  	td {
+  		width: 200px; 
+  		height: 270px; 
+  	}
+    td:hover { background-color: lightgray; }
+  	.activity {
+  		width: 200px;
+  		height: 190px;
+      padding-left: 9px;
+  	}
+    .activity:hover { 
+      width: 100%;
+      padding-left: 0px;
+    }
+    .act-lbl { 
+  		display: block;
+  		font-weight: bold; 
+      padding-left: 9px;
+  	}
+  	.act-dsc {
+  		color: lightgray; 
+  		font-style: italic; 
+      padding-left: 9px;
+      font-family: Roberto;
+    }
+
+
+  	.text-center { margin-top: 20px; }
+  	button { width: 210px; }
+
+
+  	#carousel {
+  		height: 220px;
+  		margin-top: 60px;
+  		background-color: black;
+  	}
+  	.carousel-div:first-child { 
+  		max-width: 27%;
+  		height: 180px;
+  		padding-top: 26px;
+  		padding-left: 228px;
+  	}
+  	@media screen and (max-width: 1035px) { 
+  		.carousel-div:first-child { display: none; }
+  	}
+  	@media screen and (max-width: 705px) { 
+  		.carousel-div:nth-child(2) {
+  			width: inherit !important;
+  			max-width: 700px;
+  		}
+  		p.carousel-p:last-child { float: none !important; }
+  	}
+  	.carousel-div:nth-child(2) { 
+  		width: 700px;
+  		padding-top: 40px; 
+  		padding-left: 40px;
+  	}
+	  .carousel-div { 
+		  vertical-align: top;
+		  display: inline-block; 
+	  }
+  	p.carousel-p { 
+  		color: white;
+  		margin-bottom: 0px;
+  	}
+  	p.carousel-p:last-child {
+  		float: right; 
+  		margin-top: 30px;
+  		font-style: italic;
+  		font-family: Roberto;
+  		color: cornflowerblue; 
+  	}
+
+
+  	#join {
+  		margin-top: 35px;
+  		margin-bottom: 35px;
+  		padding-left: 310px;
+  	}
+	  @media screen and (max-width: 968px) {
+		  #join { padding-left: 152px; } 
+    }
+    @media screen and (max-width: 806px) {
+		  #join { padding-left: 72px; } 
+    }
+    @media screen and (max-width: 727px) {
+		  #join { padding-left: 36px; } 
+    }
+  	#join-p {
+  		margin-top: 2px;
+  		font-size: x-large; 
+  		display: inline-block;
+  	}
+  	#join-btn { margin-left: 15px; }
+    @media screen and (max-width: 705px) {
+		  #join-btn { margin-left: 212px; } 
+    }
+    @media screen and (max-width: 463px) {
+		  #join-btn { margin-left: 0px; } 
+    }
+
+
+  	#footer { 
+  		height: 45px;
+  		padding-top: 12px;
+  		padding-left: 30px;
+  		background-color: black; 
+  	}
+  	.footer-span {
+  		color: darkgray; 
+  		font-size: xx-small; 
+  		font-family: Roberto;
+  	}
+  	.fa {
+  		color: darkgray; 
+  		margin-left: 15px;
+  		font-size: xx-small; 
+  	}
+  	#copyR {
+  		width: 300px;
+  		float: right;
+  		display: inline-block;
+  	}
+  	#lang { margin-left: 15px; }
